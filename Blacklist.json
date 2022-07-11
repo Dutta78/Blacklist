@@ -1,0 +1,51 @@
+{
+  "blacklist": [
+    {
+      "group_name": "junit",
+      "latest_version": "0.0.0",
+      "name": "junit"
+    },
+    {
+      "group_name": "org.mockito",
+      "latest_version": "0.0.0",
+      "name": "mockito-core"
+    },
+    {
+      "group_name": "org.powermock",
+      "latest_version": "0.0.0",
+      "name": "powermock-api-mockito2"
+    },
+    {
+      "group_name": "org.powermock",
+      "latest_version": "0.0.0",
+      "name": "powermock-module-junit4"
+    },
+    {
+      "group_name": "org.powermock",
+      "latest_version": "0.0.0",
+      "name": "powermock-api-mockito"
+    },
+    {
+      "group_name": "org.powermock",
+      "latest_version": "0.0.0",
+      "name": "powermock-api-easymock"
+    }
+  ],
+  "fully_blacklist": [
+    {
+      "group_name": "org.powermock"
+    },
+    {
+      "group_name": "junit"
+    },
+    {
+      "group_name": "org.mockito"
+    },
+    {
+      "group_name": "org.junit.jupiter"
+    },
+    {
+      "group_name": "io.grpc"
+    }
+  ]
+}
